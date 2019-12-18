@@ -13,4 +13,6 @@ def hello(message):
 # 让服务器监听在 0.0.0.0:80
 robot.config['HOST'] = '0.0.0.0'
 robot.config['PORT'] = 80
+robot.config["APP_ID"] = "wx99e707eb6a1fa866"
+# robot.config["APP_SECRET"] = "a28121f72ba854b686df28ad3e28f3fc"
 robot.run()
