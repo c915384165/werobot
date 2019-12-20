@@ -12,7 +12,7 @@ def img(message):
 
 
 @robot.text
-def first(message, session)
+def first(message, session):
     if 'first' in session:
           session['firkkk']
 # 让服务器监听在 0.0.0.0:80
